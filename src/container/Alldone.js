@@ -5,8 +5,8 @@ import React from 'react';
 import './write_letter.js';
 import 'antd/dist/antd.css';
 import { Layout, Menu, Input, Space, Card, Button, Select } from 'antd';
-import SizeContext from 'antd/lib/config-provider/SizeContext';
-import { TMPATTR, SAVE_ATTRIBUTE,CREATE_LETTER } from '../graphql';
+import SizeContext from 'antd/lib/config-provider/SizeContext.js';
+import { TMPATTR, SAVE_ATTRIBUTE,CREATE_LETTER } from '../graphql/index.js';
 import { useMutation, useQuery } from '@apollo/client';
 
 function Alldone({mode,onmode,usr}){

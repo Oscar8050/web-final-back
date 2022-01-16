@@ -1,9 +1,9 @@
 
 import './App.css';
-import { useState} from 'react';
-import Beginning from './container/beginning';
-import Read from './container/Read'
-import Chat from './container/Chat'
+import { useState } from 'react';
+import Beginning from './container/beginning.js';
+import Read from './container/Read.js'
+import Chat from './container/Chat.js'
 
 
 function App() {

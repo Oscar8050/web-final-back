@@ -10,7 +10,7 @@ import { split } from "apollo-link";
 import { WebSocketLink } from "apollo-link-ws";
 import { getMainDefinition } from "apollo-utilities";
 import './index.css'
-import App from './App'
+import App from './App.js'
 import 'antd/dist/antd.min.css'
 
 // Create an http link:
