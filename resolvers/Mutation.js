@@ -2,7 +2,7 @@
 import {v4 as uuid4 } from 'uuid';
 import bcrypt from "bcrypt";
 import crypto from "crypto-js";
-import { makeName, checkUser, checkChatBox, newChatBox, checkMessage, checkRelationship, newMessage, newUser,newFriend,updatelastmsg} from './utility';
+import { makeName, checkUser, checkChatBox, newChatBox, checkMessage, checkRelationship, newMessage, newUser,newFriend,updatelastmsg} from './utility.js';
 
 const saltRounds = 10
 const Mutation = {

@@ -1,4 +1,4 @@
-import { makeName } from "./utility";
+import { makeName } from "./utility.js";
 const Subscription = {
     message: {
         async subscribe(parent, { chatBoxName }, { db, pubsub }, info) {

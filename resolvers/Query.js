@@ -1,4 +1,4 @@
-import { makeName, checkUser, checkChatBox, newChatBox, checkMessage, newMessage, newUser} from './utility';
+import { makeName, checkUser, checkChatBox, newChatBox, checkMessage, newMessage, newUser} from './utility.js';
 const Query = {
     async messages(parent, { chatBoxName }, { db }, info) {
         const chatBox = await db.ChatBoxModel.findOne({name: chatBoxName});

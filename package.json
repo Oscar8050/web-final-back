@@ -46,7 +46,7 @@
     "nodemon": "^2.0.4"
   },
   "scripts": {
-    "start": "nodemon index.js --ext js,graphql --exec babel-node",
+    "start": "node index.js --ext js,graphql --exec babel-node",
     "build": "react-scripts build",
     "start_react": "react-scripts start",
     "test": "react-scripts test",
@@ -72,5 +72,6 @@
   },
   "resolutions": {
       "mini-css-extract-plugin": "2.4.5"
-  }
+  },
+  "type": "module"
 }
