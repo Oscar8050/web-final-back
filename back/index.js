@@ -8,9 +8,13 @@ import Message from './resolvers/Message.js';
 import Letter from './resolvers/Letter.js';
 import mongo from './mongo.js';
 
+
 mongo();
 
+
+
 const pubsub = new PubSub();
+
 
 const server = new GraphQLServer({
   typeDefs: './schema.graphql',
