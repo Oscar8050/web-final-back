@@ -46,7 +46,7 @@
     "nodemon": "^2.0.4"
   },
   "scripts": {
-    "start": "cd back && yarn && yarn server",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "start_react": "react-scripts start",
     "test": "react-scripts test",
